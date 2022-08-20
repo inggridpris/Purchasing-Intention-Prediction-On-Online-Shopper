@@ -1,4 +1,4 @@
-### Online Shoppers Intention
+# Online Shoppers Intention
 
 ## Online Shoppers Intention: Project Overview
 
@@ -11,26 +11,26 @@
 •	Split data for pick the best model 70:30 and handle class imbalance
 •	Try with 5 modeling and done the hyperparameters for each modelling and pick the best model for this dataset.
 
-# Problem
+### Problem
 •	On an online shop website, have 12330 visitors, that include Returning and New visitor.
 •	On an online shop website, the Returning Visitor have lower conversion rate than the New Visitor.
 •	Based on data, There are many Returning Visitor visit that online shop website.
 
-# Objective:
+### Objective:
 •	Make a modelling that can predict user who come to the online shop website and check out their shopping cart (purchase).
 
-# Purpose:
+### Purpose:
 •	Increase Revenue (Conversion rate) in particular for Returning Visitor by following up user with the prediction to check out their shopping cart (purchase).
 •	Call to action and giving the promo for the target.
 
-# Data:
+### Data:
 •	12330 rows, O null missing values, and 125 duplicates
 •	In this dataset, have 18 columns with details as follows:
   o	10 Numericals
   o	8 Categoricals
 •	For modelling, we choose 8 features with 1 target.
 
-# Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA):
 1.	There are many Returning Visitor rather than New Visitor 
 2.	Revenue have a many False data than a true, that’s why we need to increase a conversion rate
  
@@ -130,24 +130,24 @@ C	100, 10, 1.0, 0.1, 0.01, 0.001, 0.0001
 
 
 
-# Conclusion:
-o	After Exploratory Data Analyst and Data processing, we choose 8 features with 1 target.
-o	This features selection, we try 5 models. Logistic Regression, Random Forest, Decision Tree, AdaBoost, and XGBoost. After that, we also try this model with hyperparameters.
-o	For this analyst, we choose logistic Regression for the model. The best Feature from this model is Page Values.
-o	From the matrix, we can assumed profit this e-commerce have an increase 75%.
-o	Form the Page values, we can give the recommendation product or coupon discount so the visitor don’t need to take a lot of time to check out their shopping cart.
+### Conclusion:
+  o	After Exploratory Data Analyst and Data processing, we choose 8 features with 1 target.
+  o	This features selection, we try 5 models. Logistic Regression, Random Forest, Decision Tree, AdaBoost, and XGBoost. After that, we also try this model with         hyperparameters.
+  o	For this analyst, we choose logistic Regression for the model. The best Feature from this model is Page Values.
+  o	From the matrix, we can assumed profit this e-commerce have an increase 75%.
+  o	Form the Page values, we can give the recommendation product or coupon discount so the visitor don’t need to take a lot of time to check out their shopping         cart.
 
-# Sugeestion:
-o	For this online shopper website, can give a special treatment for visitor who only want to visit not buy with pop up message or in their social media.
-o	Increase time to checkout before the visitors experiences search fatigue with coupon discount or recommendation product.
-o	Try to use A/B Test to know :
-o	Page Value with marketing methods in months, especially in November and May.
-o	Visitor Traffic type that’s not productive at all and why that’s happen.
-o	Payment methods from the website.
-o	History product from the visitors.
+### Sugeestion:
+  o	For this online shopper website, can give a special treatment for visitor who only want to visit not buy with pop up message or in their social media.
+  o	Increase time to checkout before the visitors experiences search fatigue with coupon discount or recommendation product.
+  o	Try to use A/B Test to know :
+  o	Page Value with marketing methods in months, especially in November and May.
+  o	Visitor Traffic type that’s not productive at all and why that’s happen.
+  o	Payment methods from the website.
+  o	History product from the visitors.
 
-# The Team Behind this Project:
-o	This Project have 8 members: Arif B, Desy N, Maya M, Inggriani, Danang Rizki, and M. Donny.
-o	This project is a final project for Rakamin Bootcamp for Data Science.
-o	If you want to know about the detail, you can visit gdrive with this link : https://drive.google.com/drive/folders/1cK_bYaqN853SYLVfwWOv6ZD72f0UAIIx?usp=sharing
+### The Team Behind this Project:
+  o	This Project have 8 members: Arif B, Desy N, Maya M, Inggriani, Danang Rizki, and M. Donny.
+  o	This project is a final project for Rakamin Bootcamp for Data Science.
+  o	If you want to know about the detail, you can visit gdrive with this link : https://drive.google.com/drive/folders/1cK_bYaqN853SYLVfwWOv6ZD72f0UAIIx?usp=sharing
 
