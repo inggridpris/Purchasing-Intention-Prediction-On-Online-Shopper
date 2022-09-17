@@ -116,5 +116,5 @@ C	100, 10, 1.0, 0.1, 0.01, 0.001, 0.0001
 ### The Team Behind this Project:
   o	This Project have 8 members: Arif B, Desy N, Maya M, Inggriani, Danang Rizki, and M. Donny.
   o	This project is a final project for Rakamin Bootcamp for Data Science.
-  o	If you want to know about the detail, you can visit gdrive with this link : https://drive.google.com/drive/folders/1cK_bYaqN853SYLVfwWOv6ZD72f0UAIIx?usp=sharing
+  o	If you want to know about the detail, you can visit gdrive with this link : https://drive.google.com/drive/folders/1cK_bYaqN853SYLVfwWOv6ZD72f0UAIIx?usp=sharing or visit my linkedin profile https://www.linkedin.com/in/inggriani-priscilia-69779b179/
 
