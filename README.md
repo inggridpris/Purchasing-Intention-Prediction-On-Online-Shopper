@@ -93,8 +93,8 @@ C	100, 10, 1.0, 0.1, 0.01, 0.001, 0.0001
 ![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/turning%20hyperparameters.png "Results of Turning Hyperparameters")
 
 13.	Best Model Logistic Regression. With the top features, Log_pageValues; agg_Month_Nov; Log_ProductRelated; agg_trafficType_2; Log_Informational; and Log_Administrative.
-14.	
-15.	From the Feuture Selection Logistic regression, we make a confussion matrix.
+
+14.	From the Feuture Selection Logistic regression, we make a confussion matrix.
 ![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/matrix.jpg "Confussion Matrix")
 
 ### Conclusion:
