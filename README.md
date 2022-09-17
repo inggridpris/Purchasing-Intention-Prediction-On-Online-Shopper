@@ -33,62 +33,34 @@
 ### Exploratory Data Analysis (EDA):
 1.	There are many Returning Visitor rather than New Visitor 
 
-![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/Visitor%20and%20revenue%201.png "Visitor Type")
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/visitor%20type.png) "Visitor Type")
 
 2.	Revenue have a many False data than a true, that’s why we need to increase a conversion rate
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/Revenue.png "Revenue")
  
 3.	If we combine Visitor type and Revenue, New visitor have a many purchase rather than Returning visitor. So, in this dataset, drop a new visitor and focused for returning visitor.
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/vistor%20and%20revenue.png "Returning Visitor")
+
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/Visitor%20and%20revenue%201.png "New Visitor")
 
 4.	For month, there are 3 top visitor type visit the online shop website (March, May, and November) and there are 3 top conversion rate (November, May, and December).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 5.	Univariate analysis for numeric
-
-
-
-
-
-
-
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/univariate%20for%20numeric.png "Univariate analysis for Numeric")
 
 The result of KDE plot, the features have a positively skew, this features conducted log transformation. With the result:
-
-
-
-
-
-
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/after%20log%20transformation%20for%20numeric.png "Log Transformation")
 
 6.	Univariate analysis for categoric
-
-
-
-
-
-
-
-
-
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/univariate%20for%20categorical.png "Univariate Analysis for Category")
 
 7.	In this dataset, have 125 duplicates, but for this analyst we don’t drop this duplicated. This duplicated assumed that evert row in this dataset is a user visit session which happen to have the same patterns with another.
 Handling visitor type, we drop all the row that have New visitor type and replace other visitor to Returning Visitor. After the drop, we have 10636 rows.
 Handling outlier, Using z-score. After use z-score, we have 9883 rows.
+
 8.	For the feature, we need feature transformation, like log transformation. Another feature is Encoding. Label Encoding for Weekend and Revenue and One Hot Encoder for Month, Operation Systems. Browser, Region, Traffic Type, and Visitor Type.
-9.	 After running correlation for the dataset, with a>0.05 and a<-0.05, we choose 8 features. With the details:
+9.	
+10.	 After running correlation for the dataset, with a>0.05 and a<-0.05, we choose 8 features. With the details:
   o	Log_Administrative
   o	Log_Informational
   o	Log_ProductRelated
@@ -111,27 +83,19 @@ Random Forest	86	53	70	79	60
 AdaBoost	87	53	79	83	64
 XGBoost	87	56	63	77	59
 
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/modelling.png "Modelling")
+
 12.	Tuning Hyperparameters
 Solver	 Newton-cg, lbfgs, liblinear
 Penalty	L2, l1, elasticnet, none
 C	100, 10, 1.0, 0.1, 0.01, 0.001, 0.0001
 
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/turning%20hyperparameters.png "Results of Turning Hyperparameters")
+
 13.	Best Model Logistic Regression. With the top features, Log_pageValues; agg_Month_Nov; Log_ProductRelated; agg_trafficType_2; Log_Informational; and Log_Administrative.
-14.	From the Feuture Selection Logistic regression, we make a confussion matrix.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+14.	
+15.	From the Feuture Selection Logistic regression, we make a confussion matrix.
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/matrix.jpg "Confussion Matrix")
 
 ### Conclusion:
   o	After Exploratory Data Analyst and Data processing, we choose 8 features with 1 target.
