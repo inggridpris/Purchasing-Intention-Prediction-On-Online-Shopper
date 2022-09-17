@@ -33,7 +33,7 @@
 ### Exploratory Data Analysis (EDA):
 1.	There are many Returning Visitor rather than New Visitor 
 
-![ALT] (https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/Visitor%20and%20revenue%201.png)
+![ALT](https://github.com/inggridpris/Purchasing-Intention-Prediction-On-Online-Shopper/blob/main/fig/Visitor%20and%20revenue%201.png "Visitor Type")
 
 2.	Revenue have a many False data than a true, that’s why we need to increase a conversion rate
  
